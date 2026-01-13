@@ -1,8 +1,62 @@
 OZI ASSIGNMENT FOR FULL-STACK ROLE:-
 
-Basically This is a task manager where I used (React.js + vite + ShadeCn UI for styling).
-The backend was complete but the frontend demands more time,
+# 🗂️ Task Management Application (Frontend)
 
-All the APIS build in this project is checked via Postman and all edge cases have been handled properly for both User and Task I keep seperate folders for both,
+A modern **Task Management Web Application** built using **React.js** and **shadcn/ui**, featuring a clean UI, modular components, and production-ready UX patterns such as modals, dropdowns, and controlled forms.
 
-The Frontend is Incomplete !! 
+---
+
+## 🚀 Features
+
+### 🔐 Authentication & User Actions (UI)
+- User avatar dropdown in Navbar
+- Edit Profile modal
+- Change Password inside profile modal
+- Logout option
+
+### 📝 Task Management
+- Add Task modal using shadcn/ui Dialog
+- Clean and accessible form UI
+- Controlled modal behavior
+
+### 🎨 UI & UX
+- Built with **shadcn/ui** components
+- Tailwind CSS for styling
+- Fully responsive Navbar
+- Keyboard accessible modals & dropdowns
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js**
+- **Vite**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **Lucide React (Icons)**
+
+### UI Components Used
+- Dialog
+- Dropdown Menu
+- Avatar
+- Button
+- Input
+- Label
+
+---
+
+## 📂 Project Structure
+
+```txt
+src/
+ ├── components/
+ │    ├── ui/                 # shadcn UI components
+ │    ├── Navbar.jsx
+ │    ├── AddTaskModal.jsx
+ │    ├── UserDropdown.jsx
+ │    └── EditProfileModal.jsx
+ │
+ ├── pages/
+ ├── App.jsx
+ └── main.jsx
